@@ -41,11 +41,12 @@ nav ul{
 }
 #Navigate{
     border: 2px solid black;
-    height: 10vh;
+    height: 12vh;
     max-width: fit-content;
     padding:3px;
     border-radius: 10px;
     background-color: aqua;
+    
 }
 .logo{
     border: 2px solid black;
@@ -57,11 +58,13 @@ nav ul{
 }
 #Profile{
     background-color: orangered;
-    
+    position: absolute;
+    top: 10px;
+    left:10px;
+    height: 35px;
+    width: 35px;
 }
-profile:hover{
-    background-color: darkmagenta;
-}
+
 #Gitlink{
     background-color:violet;
     
@@ -69,4 +72,10 @@ profile:hover{
 
 #Linkedin{
     background-color: greenyellow;
+}
+
+#Navigate div:hover{
+    background-color: darkmagenta;
+    font-size: large;
+    cursor:-webkit-grabbing;
 }
