@@ -39,7 +39,11 @@ header nav :active{
 nav ul{
     text-align:end ;
 }
-.logo{
-    border:1px solid black;
-    background-color: red;
+#logo{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    
 }
