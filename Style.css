@@ -39,11 +39,34 @@ header nav :active{
 nav ul{
     text-align:end ;
 }
-#logo{
-    border: 1px solid black;
-    height: 100px;
-    width: 100px;
+#Navigate{
+    border: 2px solid black;
+    height: 10vh;
+    max-width: fit-content;
+    padding:3px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.logo{
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
-    text-align: center;
+    text-align: center;  
+    display: inline-block;
+}
+#Profile{
+    background-color: orangered;
     
+}
+profile:hover{
+    background-color: darkmagenta;
+}
+#Gitlink{
+    background-color:violet;
+    
+}
+
+#Linkedin{
+    background-color: greenyellow;
 }
