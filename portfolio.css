@@ -1,0 +1,37 @@
+#Navigation li{
+    display:inline-block;
+    border:1.5px solid red;
+    padding: 2px;
+    border-radius: 10px;
+    background-color:lightgoldenrodyellow;
+    box-shadow: 2px 3px 10px 5px black;
+}
+.parent{
+    background-color: cornflowerblue;
+    box-shadow: 2px 3px 10px 2px black;
+    margin: 10px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "head head"
+    "qual obj"
+    "skill skill";
+}
+.heading{
+    grid-area: head;
+    background-color: gold;
+}
+.qual{
+    grid-area: qual;
+    background-color: blueviolet;
+}
+.obj{
+    grid-area: obj;
+    background-color: chocolate;
+}
+.skills{
+    grid-area: skill;
+    background-color: darkgreen;
+}
