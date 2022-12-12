@@ -31,3 +31,40 @@
     
 
 }
+.Ad{
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns:20% 80%;
+    grid-template-rows: 50px 200px 50px;
+    /* grid-template: 
+    head head
+    lefts rights
+    foots foots; */
+    grid-template-areas: 
+    "head head"
+    "lefts rights"
+    "foots foots"; 
+
+
+}
+.heading{
+    background-color: palevioletred;
+    color: darkred;
+    grid-area: head;
+}
+.sidebar{
+    background-color: blueviolet;
+    color: chartreuse;
+    grid-area: lefts;
+}
+.Details{
+    background-color: chocolate;
+    grid-area: rights;
+}
+.contact{
+    background-color: yellow;
+    color: darkmagenta;
+    grid-area: foots;
+}
